@@ -10,4 +10,9 @@ function produceTipCalculator(amount){
   }
 }
 
+function produceDrivingRange(trip){
+  return function(distance){
+    return distance * trip;
+  }
+}
 
