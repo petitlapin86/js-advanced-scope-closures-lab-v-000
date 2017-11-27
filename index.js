@@ -9,3 +9,5 @@ function produceTipCalculator(amount){
     return tip * amount;
   }
 }
+
+
